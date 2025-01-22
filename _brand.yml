@@ -1,0 +1,83 @@
+meta:
+  name:
+    short: INRAE
+    full: Institut national de recherche pour l'agriculture, l'alimentation et l'environnement
+  link:
+    home: https://www.inrae.fr
+
+logo:
+  # Placeholder for logo files - actual files would need to be downloaded and placed next to the _brand.yml
+  images:
+    header: logos/Logo-INRAE_Transparent.png
+    header-white: logos/Logo-INRAE_Transparent.png
+  small: logos/inrae-icon.png
+  medium:
+    light: header
+    dark: header-white
+
+color:
+  palette:
+    # Primary institutional color and complementary colors from brand guidelines
+    institutional: "#00a3a6"
+    complementary1: "#9dc544"
+    complementary2: "#423089"
+    complementary3: "#ed6e6c"
+    complementary4: "#c4c0b3"
+    complementary5: "#9ed6e3"
+    complementary6: "#797870"
+    
+    # Additional named colors for broader use
+    white: "#FFFFFF"
+    black: "#000000"
+
+  # Semantic color assignments
+  foreground: "#000000"
+  background: "#FFFFFF"
+  primary: "#00a3a6"  # Using institutional color
+  secondary: "#423089"
+  success: "#9dc544"
+  info: "#9ed6e3"
+  warning: "#ed6e6c"
+  danger: "#ed6e6c"
+
+typography:
+  fonts:
+    - family: Raleway
+      source: google
+      weight: [400, 600, 700]
+      style: [normal, italic]
+    - family: Poppins
+      source: google
+      weight: [400, 600]
+      style: [normal, italic]
+    # Placeholder for Avenir Next Pro Condensed - recommend finding a close Google Font alternative
+    - family: Open Sans Condensed
+      source: google
+      weight: [300, 700]
+      style: [normal]
+
+  base:
+    family: Poppins
+    weight: 400
+    size: 12pt
+    line-height: 1.5
+
+  headings:
+    family: Raleway
+    weight: 600
+    line-height: 1.2
+
+  monospace:
+    family: 'Courier New'
+    weight: 400
+    size: 0.9em
+
+defaults:
+  bootstrap:
+    enable-rounded: false
+    navbar-bg: $brand-institutional
+  quarto:
+    format:
+      revealjs:
+        lang: fr
+        theme: revealjs-inrae.scss
