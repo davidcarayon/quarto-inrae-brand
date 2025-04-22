@@ -13,6 +13,7 @@ date: today
 date-format: long
 format: 
   revealjs: 
+    
     lang: fr
     ## Uncomment if you want a footer for title slide :
     title-slide-attributes:
@@ -44,13 +45,20 @@ Code chunks and output
 lm(mpg ~ disp, data = mtcars)
 ```
 
+# Les analyses de code  {background-gradient="linear-gradient(to bottom, #008c8e, #275662)" background-opacity="0.5"}
+
+## Slide Title {background-gradient="linear-gradient(to bottom, #00A3A6, #275662)"}
+
 ## Block quotes
 
 <center>
 
-[I'm a centered button](){.btn .btn-primary role="button" align="center"} 
+{{< brand logo medium >}}
+
 
 </center>
+
+
 
 
 > Dorothy followed her through many of the beautiful rooms in her

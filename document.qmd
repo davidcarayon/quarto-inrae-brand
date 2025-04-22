@@ -15,7 +15,7 @@ title-block-banner: true
 execute: 
   warning: false
 format: 
-  html: default
+  typst: default
 ---
 
 
